@@ -1,0 +1,33 @@
+import "@openzeppelin/contracts/UserProfile.sol";
+
+contract UserProfile is Ownable {
+struct Profile {
+    string name;
+    string email;
+    string bio;
+    string location;
+    string website;
+    string avatar;
+    string cover;
+    uint256 followers;
+    uint256 following;
+    uint256 posts;
+    uint256 likes;
+    uint256 comments;
+    uint256 shares;
+    uint256 views;
+    uint256 wallet;
+    uint256 balance;
+    uint256 earnings;
+    uint256 spent;
+    uint256 rewards;
+    uint256 reputation;
+    uint256 level;
+    uint256 experience;
+    uint256 rank;
+    uint256 status;
+    uint256 created;
+    uint256 updated;
+    uint256 deleted;
+    bool isActive;
+}
